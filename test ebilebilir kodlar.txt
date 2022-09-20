@@ -1,0 +1,18 @@
+# Vulnserver sunucusu içindeki tüm kodlar ve benim incelemelerime göre
+# buffer overflow yapılabilir olanlar 
+# + yapılabilir
+# - yapılamaz 
+
+# STATS [stat_value]   | incorrect  | -
+# RTIME [rtime_value]  | incorrect  | -
+# LTIME [ltime_value]  | incorrect  | -
+# SRUN [srun_value]    | incorrect  | -
+# TRUN [trun_value]    | correct    | +
+# GMON [gmon_value]    | correct    | *
+# GDOG [gdog_value]    | incorrect  | -
+# KSTET [kstet_value]  | correct    | + |
+# GTER [gter_value]    | correct    | + | sonra kötü karakter analizi yapılacak
+# HTER [hter_value]    | incorrect  | -
+# LTER [lter_value]    | correct    | + //
+# KSTAN [lstan_value]  | incorrect  | -
+# EXIT                 | incorrect  | - 

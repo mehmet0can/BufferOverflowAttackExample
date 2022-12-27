@@ -37,6 +37,5 @@ while True:
 
     except Exception as E:
         subprocess.call(["clear"])
-        print(E)
         print("tahmini veri araligi : " + str(len(veri_gonder)))
         sys.exit()

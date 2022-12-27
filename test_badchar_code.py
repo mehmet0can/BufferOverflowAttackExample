@@ -1,4 +1,4 @@
-import socke
+import socket
 import sys
 import optparse
 from optparse import OptionParser
